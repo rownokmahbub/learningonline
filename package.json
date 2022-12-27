@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.7",
     "@tailwindcss/line-clamp": "^0.4.2",
     "daisyui": "^2.43.0",
     "eslint": "8.29.0",
