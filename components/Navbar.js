@@ -3,9 +3,9 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className=''>
-        <div className="flex justify-between items-center ">
+        <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
             <img src="/assets/logo.svg" alt="logo" />
-            <div className="flex items-center gap-10">
+            <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
                 <p>Courses</p>
                 <p>About Us</p>
                 <p>Teacher</p>

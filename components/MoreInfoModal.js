@@ -36,14 +36,14 @@ const MoreInfoModal = () => {
       <p className="text-gray-800 text-4xl font-medium capitalize mb-10">
       Common questions
       </p>
-    <div className="grid grid-cols-2 gap-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10">
       {info.map((inf,i)=>{
         return(
       
     <Disclosure key={i} >
         {({ open }) => (
           <div className='group'>
-            <Disclosure.Button className="flex flex-col group-hover:bg-[#524fd5] group-focus:bg-[#524fd5] w-full justify-between rounded-full border border-gray-200 px-8 py-10 text-left text-sm font-medium  focus:outline-none ">
+            <Disclosure.Button className="flex flex-col group-hover:bg-[#524fd5] group-focus:bg-[#524fd5] w-full justify-between rounded-lg lg:rounded-full border border-gray-200 px-8 py-10 text-left text-sm font-medium  focus:outline-none ">
               <div className="flex justify-between items-center w-full">
               <span className='group-hover:text-white  group-focus:text-white'>{inf.title}</span>
               <BsFillPlusCircleFill
